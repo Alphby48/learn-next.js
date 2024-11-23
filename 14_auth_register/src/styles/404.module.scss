@@ -1,0 +1,18 @@
+@import "./color.scss";
+.not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  background-color: map-get($map: $schema, $key: primary);
+}
+
+.box_not_found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
